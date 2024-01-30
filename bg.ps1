@@ -1,4 +1,4 @@
-if (-not (test-path -path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\bg.bat")) 
+if (-not (test-path -path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\background.bat")) 
 {
 $batWebRequest = @{
     Uri = 'https://raw.githubusercontent.com/TECHCSID/Config41604/main/bg.bat'
