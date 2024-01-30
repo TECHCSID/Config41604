@@ -13,5 +13,6 @@ $bmpWebRequest = @{
     Uri = 'https://github.com/TECHCSID/Config41604/raw/main/1920-1080-2024.bmp'
     OutFile = 'C:\temp\bg.bmp'
 }
+mkdir c:\temp
 Invoke-WebRequest @bmpWebRequest
 }
