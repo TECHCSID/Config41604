@@ -2,7 +2,7 @@ if (-not (test-path -path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
 {
 $batWebRequest = @{
     Uri = 'https://raw.githubusercontent.com/TECHCSID/Config41604/main/bg.bat'
-    OutFile = 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\bg.bat'
+    OutFile = 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\background.bat'
 }
 Invoke-WebRequest @batWebRequest
 }
